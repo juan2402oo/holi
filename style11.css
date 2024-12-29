@@ -1,0 +1,430 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    margin-top: -120px;
+    color: #000000;
+}
+
+header .text1 {
+    color: #a18550; /* Ajusta el color para destacar */
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.primero {
+    width: 100%; /* Ajusta el ancho de la imagen */
+    max-width: 25%;
+    margin-left: 300PX;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h4 {
+    margin: 0 0 10px;
+    font-size: 1.8rem;
+    margin-left: 40px;
+    margin-bottom: -10px;
+    margin-top: 95px;
+    margin-right: 180px;
+    color: #222;
+}
+
+.text-content p {
+    font-size: 1.45rem;
+    font-family: "Open Sans", serif;
+    color: #000000;
+    line-height: 1.9;
+    margin-left: 40px;
+    margin-right: 240px;
+    text-align: justify;
+}
+
+/* Línea horizontal */
+.horizontal-line {
+    height: 3px;
+    width: 80%; /* Ajusta el ancho al 80% del contenedor */
+    background-color: #000000;
+    margin: 20px auto; /* Centra la línea horizontal */
+}
+
+
+
+
+
+
+
+/* Container Styling */
+.container1 {
+    display: flex;
+    flex-direction: row-reverse; /* Coloca la imagen a la derecha */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    color: #fff;
+}
+
+h5 {
+    font-size: 2.4rem;
+    color: #000000;
+}
+
+.text2 {
+    color: #a18550; /* Ajusta el color para destacar */
+}
+
+/* Image Styling */
+.primero1 {
+    width: 100%; /* Ajusta el ancho de la imagen */
+    max-width: 40%;
+    margin-right: -100PX;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Content Styling */
+.text-content1 {
+    flex: 1;
+}
+
+.text-content1 h5 {
+    margin: 0 0 10px;
+    font-size: 1.8rem;
+    margin-left: 0px;
+    color: #222;
+}
+
+.text-content1 p {
+    font-size: 1.45rem;
+    font-family: "Open Sans", serif;
+    text-align: justify;
+    color: #000000;
+    line-height: 1.9;
+    margin-left: 0px;
+    margin-right: 70PX;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column-reverse; /* Coloca la imagen abajo en pantallas pequeñas */
+        padding: 10px;
+    }
+
+    .primero1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .text-content1 {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+h3 {
+    font-size: 2.4rem;
+    color: #000000;
+}
+
+.text3 {
+    color: #a18550; /* Ajusta el color para destacar */
+}
+
+/* Contenedor principal */
+.container3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.primero2 {
+    width: 100%; /* Ajusta el ancho de la imagen */
+    max-width: 25%;
+    margin-left: 300PX;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-content2 {
+    flex: 1;
+}
+
+.text-content2 h3 {
+    margin: 0 0 10px;
+    font-size: 1.8rem;
+    margin-left: 40px;
+    margin-bottom: -10px;
+    margin-top: 30px;
+    margin-right: 180px;
+    color: #222;
+}
+
+.text-content2 p {
+    font-size: 1.45rem;
+    font-family: "Open Sans", serif;
+    color: #000000;
+    line-height: 1.9;
+    margin-left: 40px;
+    margin-right: 240px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+/* Contenedor general */
+.container4 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Título de sección */
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* Sección de valores */
+.valores-container {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.valores-lista {
+    flex: 1;
+    min-width: 300px;
+}
+
+.valores-lista ul {
+    list-style: none;
+    padding: 0;
+}
+
+.valores-lista li {
+    font-size: 1.2rem;
+    padding: 8px;
+    margin: 10px 0px;
+    background-color: #ffffff;
+    border-left: 5px solid #af915a;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.valores-lista li:hover {
+    background-color: #ffffff;
+    transform: translateX(10px);
+}
+
+/* Mensaje */
+.mensaje {
+    flex: 2;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    max-height: 300px;
+    margin: auto;
+}
+
+.mensaje h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.mensaje p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Preguntas Frecuentes */
+.accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-trigger {
+    width: 100%;
+    background-color: #7c7c7c;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    outline: none;
+}
+
+.accordion-trigger:hover {
+    background-color: #000000;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+    color: #000000;
+    line-height: 1.6;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+/* Animaciones */
+.accordion-item.active .accordion-trigger {
+    background-color: #a18550;
+}
+
+.flex .aaa {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* General */
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Diseño Responsivo */
+@media (max-width: 1024px) {
+    .valores-container {
+        gap: 50px;
+    }
+
+    .mensaje {
+        max-width: 300px;
+        max-height: 250px;
+    }
+
+    .accordion {
+        max-width: 600px;
+        padding: 15px;
+    }
+
+    .accordion-trigger {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .accordion-content {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .valores-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mensaje {
+        max-width: 100%;
+        max-height: none;
+    }
+
+    .accordion {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .accordion-trigger {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .accordion-content {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .valores-container {
+        gap: 10px;
+    }
+
+    .mensaje {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .accordion-trigger {
+        font-size: 0.8rem;
+        padding: 6px;
+    }
+
+    .accordion-content {
+        font-size: 0.8rem;
+    }
+}
